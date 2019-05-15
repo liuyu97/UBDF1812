@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width:1180px ;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-image: url("../imges/logo.png");
+    margin: auto;
+    position: relative;
+}
+.header .top{
+    position: absolute;
+    right: 0;
+}
+.outer {
+    height: 40px;
+    background: #3b8de3;
+}
+
+.inner {
+    margin: auto;
+    width: 1180px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.inner a{
+    color: white;
+    float: left;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+.inner .left{
+    width: 690px;
+}
+.inner .right{
+    width: 190px;
+}
+.inner .left .shouye{
+    background: white;
+    color: #3b8de3;
+    border-top:2px solid orange;
+    line-height: 38px;
+}
+.inner .left a {
+    padding: 0 40px;
+}
+
+.inner .right a {
+    padding: 0 10px;
+    background: rgb(1,133,225);
+}
+.inner .left a:hover{
+    background: white;
+    color: #3b8de3;
+    border-top:2px solid orange;
+    line-height: 38px;
+}
+.inner .right a:hover{
+    background: rgb(3,120,201);
+}
+.outerhot{
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    background: rgb(247,251,255);
+}
+.innerhot{
+    height: 30px;
+    width: 1180px;
+    margin: auto;
+}
+.innerhot span{
+    float: left;
+    line-height: 30px;
+    margin: auto;
+    font-size: small;
+    color:rgb(85,85,85);
+}
+.innerhot a{
+    float: left;
+    line-height: 30px;
+    margin: 0;
+    font-size: small;
+    color:rgb(0,85,170);
+    text-decoration: none;
+    padding: 0 5px;
+}
+.wheel-box{
+    width: 1920px;
+    height: 380px;
+    position: relative;
+    margin: auto;
+}
+.banner{
+    width:100%;
+    height:380px;
+    position: absolute;
+}
+#banner1{
+    background: url("../imges/banner1.png") no-repeat;
+    z-index: 2;
+}
+#banner2{
+    background: url("../imges/banner2.png") no-repeat;
+    z-index: 1;
+}
+.btns{
+    float: right;
+    width: 70px;
+    height: 7px;
+    position: absolute;
+    right: 375px;
+    bottom: 4px;
+    padding: 0;
+    z-index: 3;
+}
+.btn{
+    float: left;
+    height: 5px;
+    width: 27px;
+    background: black;
+    margin: 0 3px;
+}
+.btn.active{
+    background: orange;
+}
+
+.hothangxian{
+    height: 44px;
+    width: 1180px;
+    margin: auto;
+    border-bottom:2px solid darkgray;
+}
+.hothangxian .left{
+    height: 44px;
+    width:175px;
+}
+.hothangxian .right{
+    height: 44px;
+    width: 800px;
+
+}
+.hothangxian .left p{
+    line-height: 44px;
+    font-size:26px;
+    color:rgb(85,85,85);
+    margin: 0;
+    padding: 0;
+}
+.hothangxian .right a{
+    float: left;
+    height: 44px;
+    width: 80px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 44px;
+    color: rgb(85,85,85);
+}
+.hothangxian .right .quanguo{
+    background:rgb(200,227,252);
+    border-bottom: 2px solid #3b8de3;
+    color: #3b8de3;
+}
+.hothangxian .right a:hover{
+    border-bottom: 2px solid #3b8de3;
+    color: #3b8de3;
+}
+.hangxians{
+    width: 1180px;
+    height: 335px;
+    margin: auto;
+}
+.hangxian{
+    float: left;
+    width:220px;
+    height: 135px;
+    margin: 15px 7px;
+    border: 1px solid darkgray;
+    background:rgb(249,249,249);
+}
+.hangxian:hover{
+    background: white;
+    border: 1px solid rgb(200,227,252);
+}
+.hangxian p{
+    text-align: center;
+    color: rgb(0,85,170);
+}
+.hangxian .place{
+    margin-top: 15px;
+
+}
+.hangxian .date{
+    font-size: small;
+    margin-top: 15px;
+}
+.hangxian .¥{
+    color: rgb(255,102,0);
+}
+.hangxian .price{
+    color: rgb(255,102,0);
+    font-size: large;
+}
+.hangxian p:hover{
+    text-align: center;
+    color: rgb(85,85,85);
+}

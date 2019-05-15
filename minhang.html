@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>民航机票</title>
+    <link rel="stylesheet" type="text/css" href="styles/minhang.css"/>
+    <script>
+        window.onload=function(ev){
+            var banner = document.querySelectorAll(".banner");
+            var btns=document.querySelectorAll(".btn");
+            var num=0
+            setInterval(function () {
+
+                if (num == 2) {
+                    num = 0;
+                }
+
+                for (var i = 0; i < banner.length; i++) {
+                    banner[i].style.display = "none"
+                    btns[i].style.background="#000"
+                }
+                banner[num].style.display = "block";
+                btns[num].style.background="orange"
+                num++
+            },3000)
+        }
+    </script>
+
+</head>
+<body>
+<!--顶部-->
+<div class="header">
+    <img src="./imges/top.jpg" alt="top" class="top">
+</div>
+<!--菜单-->
+<div class="outer">
+    <div class="inner">
+        <div class="left">
+            <a href="" class="shouye">首页</a>
+            <a href="">国内机票</a>
+            <a href="">国际机票</a>
+            <a href="">民航资讯</a>
+            <a href="">民航问答</a>
+        </div>
+        <div class="right">
+            <a href="">登录</a>
+            <a href="">注册</a>
+            <a herf="">用户中心</a>
+        </div>
+    </div>
+</div>
+<!--热门-->
+<div class="outerhot">
+    <div class="innerhot">
+        <span>热门城市：</span>
+        <a href="">深圳</a>
+        <a href="">北京</a>
+        <a href="">上海</a>
+        <a href="">广州</a>
+        <a href="">南京</a>
+        <a href="">天津</a>
+        <a href="">武汉</a>
+        <a href="">长沙</a>
+        <a href="">昆明</a>
+        <a href="">贵阳</a>
+        <a href="">成都</a>
+        <a href="">重庆</a>
+        <a href="">海口</a>
+        <a href="">哈尔滨</a>
+        <a href="">更多</a>
+    </div>
+</div>
+<!--轮播图-->
+<div class="wheel-box">
+    <div class="banner" id="banner1"></div>
+    <div class="banner" id="banner2"></div>
+    <div class="btns">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+    </div>
+
+</div>
+<!--热门航线-->
+<div class="hothangxian">
+    <div class="left">
+        <p>热门航线预定</p>
+    </div>
+    <div class="right">
+        <a href="" class="quanguo">全国</a>
+        <a href="">深圳</a>
+        <a href="">北京</a>
+        <a href="">上海</a>
+        <a href="">广州</a>
+        <a href="">武汉</a>
+        <a href="">成都</a>
+        <a href="">海口</a>
+        <a href="">重庆</a>
+        <a href="">沈阳</a>
+    </div>
+</div>
+<div class="hangxians">
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    <div class="hangxian">
+        <p class="place">海口→郑州</p>
+        <p class="date">12月16日</p>
+        <p><span class="piaojia">票价：</span><span class="¥">¥</span><span class="price">150</span></p>
+    </div>
+    
+</div>
+</body>
+</html>
