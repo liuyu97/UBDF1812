@@ -5,10 +5,10 @@
     <title>民航机票</title>
     <link rel="stylesheet" type="text/css" href="styles/minhang.css"/>
     <script>
-        window.onload=function(ev){
+        window.onload = function (ev) {
             var banner = document.querySelectorAll(".banner");
-            var btns=document.querySelectorAll(".btn");
-            var num=0
+            var btns = document.querySelectorAll(".btn");
+            var num = 0
             setInterval(function () {
 
                 if (num == 2) {
@@ -17,12 +17,12 @@
 
                 for (var i = 0; i < banner.length; i++) {
                     banner[i].style.display = "none"
-                    btns[i].style.background="#000"
+                    btns[i].style.background = "#000"
                 }
                 banner[num].style.display = "block";
-                btns[num].style.background="orange"
+                btns[num].style.background = "orange"
                 num++
-            },3000)
+            }, 3000)
         }
     </script>
 
