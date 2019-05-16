@@ -214,16 +214,15 @@ body {
 
 .hangxian {
     float: left;
-    width: 220px;
-    height: 135px;
-    margin: 15px 7px;
-    border: 1px solid darkgray;
-    background: rgb(249, 249, 249);
+    width: 223px;
+    height: 140px;
+    margin: 15px 6px;
+
+    background: #fff url(../imges/hangxian_bg.png) 0 0;
 }
 
 .hangxian:hover {
-    background: white;
-    border: 1px solid rgb(200, 227, 252);
+    background: #fff url(../imges/hangxian_bg.png) 225px 0;
 }
 
 .hangxian p {
