@@ -61,3 +61,17 @@ div{
 }
 
 ```
+###a链接不刷新
+```
+<a href="javascript:;">链接</a>
+```
+###display改变元素的显示状态
+```
+display:block;
+    inline;
+    inline-block;
+    none;
+```
+###CSS里的bug
+当给父元素里面的第一个子元素设置margin-top
+给父元素设置一个边框或者用padding-top
